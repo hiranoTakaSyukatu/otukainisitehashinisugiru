@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8e21245ef78ab6f41a616183ca97b413
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - JF Dot milkjf 16
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 347568d4ffc664c4ab5c096a71e6fcf0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

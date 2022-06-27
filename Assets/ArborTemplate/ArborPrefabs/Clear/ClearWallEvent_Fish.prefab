@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1995789147385329949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995789147385329947}
+  - component: {fileID: 1995789147385329948}
+  - component: {fileID: 1995789147385329944}
+  - component: {fileID: 1995789147385329946}
+  - component: {fileID: 1395794482728742776}
+  - component: {fileID: 1293696714607543948}
+  m_Layer: 0
+  m_Name: ClearWallEvent_Fish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1995789147385329947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995789147385329948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3982f3d49853bb44283cd1fcef05a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphName: ClearWallEvent
+  playOnStart: 1
+  updateSettings:
+    type: 0
+    timeType: 0
+    seconds: 0.1
+  debugInfiniteLoopSettings:
+    maxLoopCount: 10000
+    enableLogging: 1
+    enableBreak: 0
+  _OwnerBehaviour: {fileID: 0}
+  _ParameterContainer: {fileID: 0}
+  _Calculators: []
+  _Comments: []
+  _Groups: []
+  _DataBranchRerouteNodes:
+    _Nodes: []
+  _DataBranchies: []
+  _StartStateID: 1559595546
+  _States:
+  - _NodeGraph: {fileID: 1995789147385329948}
+    _NodeID: 1559595546
+    position:
+      serializedVersion: 2
+      x: -180
+      y: -492
+      width: 300
+      height: 130
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 1995789147385329944}
+    _BreakPoint: 0
+    name: GameObjectChecker
+  - _NodeGraph: {fileID: 1995789147385329948}
+    _NodeID: 1655911537
+    position:
+      serializedVersion: 2
+      x: -180
+      y: 36
+      width: 300
+      height: 158
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 1995789147385329946}
+    _BreakPoint: 0
+    name: ColliderActive
+  - _NodeGraph: {fileID: 1995789147385329948}
+    _NodeID: 1752227528
+    position:
+      serializedVersion: 2
+      x: -180
+      y: -336
+      width: 300
+      height: 158
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 1395794482728742776}
+    _BreakPoint: 0
+    name: SpriteDisplay
+  - _NodeGraph: {fileID: 1995789147385329948}
+    _NodeID: 726643700
+    position:
+      serializedVersion: 2
+      x: -180
+      y: -156
+      width: 300
+      height: 158
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 1293696714607543948}
+    _BreakPoint: 0
+    name: ColorChanger
+  _StateLinkRerouteNodes:
+    _Nodes: []
+--- !u!114 &1995789147385329944
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978b4df5c422d464386e9bdd508f2042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 1995789147385329948}
+  _NodeID: 1559595546
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link1:
+    name: 
+    stateID: 1559595546
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  link2:
+    name: 
+    stateID: 1752227528
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _objName: HokkeObj
+--- !u!114 &1995789147385329946
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983daf07f4075e34b82c74d632f06a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 1995789147385329948}
+  _NodeID: 1655911537
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 0
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _objName: GoalWallObj_2
+  _colFlg: 0
+--- !u!114 &1395794482728742776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a58612c0c04e8418272a63a6c81db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 1995789147385329948}
+  _NodeID: 1752227528
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 726643700
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _imageObjName: FishCheck
+  _activeFlg: 1
+--- !u!114 &1293696714607543948
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995789147385329949}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630db300815e7ae4cac0b83f645a26da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 1995789147385329948}
+  _NodeID: 726643700
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 1655911537
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _textObjName: FishText
+  _color: {r: 1, g: 1, b: 1, a: 0.49803922}

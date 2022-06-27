@@ -1,0 +1,510 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8594688225956984654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8594688225956984652}
+  - component: {fileID: 8594688225956984653}
+  - component: {fileID: 8594688225956984649}
+  - component: {fileID: 8594688225956984650}
+  - component: {fileID: 8594688225956984648}
+  - component: {fileID: 8594688225956984695}
+  - component: {fileID: 2336949070263465477}
+  - component: {fileID: 5912263836476224299}
+  - component: {fileID: 8616641219366188874}
+  - component: {fileID: -839327262966260141}
+  m_Layer: 0
+  m_Name: OpEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8594688225956984652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8594688225956984653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3982f3d49853bb44283cd1fcef05a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphName: New StateMachine
+  playOnStart: 1
+  updateSettings:
+    type: 0
+    timeType: 0
+    seconds: 0.1
+  debugInfiniteLoopSettings:
+    maxLoopCount: 10000
+    enableLogging: 1
+    enableBreak: 0
+  _OwnerBehaviour: {fileID: 0}
+  _ParameterContainer: {fileID: 0}
+  _Calculators: []
+  _Comments: []
+  _Groups: []
+  _DataBranchRerouteNodes:
+    _Nodes: []
+  _DataBranchies: []
+  _StartStateID: 1559595546
+  _States:
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 1559595546
+    position:
+      serializedVersion: 2
+      x: -240
+      y: -1092
+      width: 300
+      height: 269
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 8594688225956984649}
+    _BreakPoint: 0
+    name: Conversation
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 534011718
+    position:
+      serializedVersion: 2
+      x: -240
+      y: 168
+      width: 300
+      height: 178
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 8594688225956984650}
+    _BreakPoint: 0
+    name: UIChangePos
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 1752227528
+    position:
+      serializedVersion: 2
+      x: -240
+      y: 372
+      width: 300
+      height: 72
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 8594688225956984648}
+    _BreakPoint: 0
+    name: Destory
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 630327709
+    position:
+      serializedVersion: 2
+      x: -240
+      y: -804
+      width: 300
+      height: 111
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 8594688225956984695}
+    _BreakPoint: 0
+    name: TimeCount
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 2128155929
+    position:
+      serializedVersion: 2
+      x: -240
+      y: -252
+      width: 300
+      height: 269
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 2336949070263465477}
+    _BreakPoint: 0
+    name: Conversation
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 726643700
+    position:
+      serializedVersion: 2
+      x: -240
+      y: 36
+      width: 300
+      height: 111
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 5912263836476224299}
+    _BreakPoint: 0
+    name: TimeCount
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 1848543519
+    position:
+      serializedVersion: 2
+      x: -240
+      y: -672
+      width: 300
+      height: 269
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: 8616641219366188874}
+    _BreakPoint: 0
+    name: Conversation
+  - _NodeGraph: {fileID: 8594688225956984653}
+    _NodeID: 822959691
+    position:
+      serializedVersion: 2
+      x: -240
+      y: -384
+      width: 300
+      height: 111
+    showComment: 0
+    nodeComment: 
+    _Resident: 0
+    _Behaviours:
+    - {fileID: -839327262966260141}
+    _BreakPoint: 0
+    name: TimeCount
+  _StateLinkRerouteNodes:
+    _Nodes: []
+--- !u!114 &8594688225956984649
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833a424b4434bcd4ca0341dd5c9ffe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 1559595546
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 630327709
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _charaText: "\u304A\u3064\u304B\u3044\u306E\u5185\u5BB9\u3057\u3063\u304B\u308A\u899A\u3048\u305F\uFF1F"
+  _textSize: 40
+  _charaName: HomeObj
+  _offset_X: 0
+  _offset_Y: 1.5
+  _sprite: {fileID: -1627540812, guid: a8910c195cdeb7144bb40a9c378c5240, type: 3}
+--- !u!114 &8594688225956984650
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5805bfbce2816ec43ac9ecda4cc6fcd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 534011718
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 1752227528
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _objStr: ConversationObj
+  _changePos: {x: -20, y: 0, z: 0}
+--- !u!114 &8594688225956984648
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2ac2cd87f72b749ae9ac23afa238e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 1752227528
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  _Target:
+    _Type: 3
+    _HierarchyType: 0
+    _Value: {fileID: 0}
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _SerializeVersion: 1
+  _OldTarget: {fileID: 0}
+--- !u!114 &8594688225956984695
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19d59d3d603bc340aa5df4b130e7c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 630327709
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  _TimeType:
+    _Type: 0
+    _Value: 0
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _Seconds:
+    _Type: 0
+    _Value: 3
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _MinRange: 0
+    _MaxRange: 0
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _NextState:
+    name: 
+    stateID: 1848543519
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _SerializeVersion: 2
+  _OldSeconds: 0
+  _OldTimeType: 0
+--- !u!114 &2336949070263465477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833a424b4434bcd4ca0341dd5c9ffe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 2128155929
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 726643700
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _charaText: "\u983C\u3093\u3060\u304B\u3089\u306D\uFF01"
+  _textSize: 40
+  _charaName: HomeObj
+  _offset_X: 0
+  _offset_Y: 1.5
+  _sprite: {fileID: -1627540812, guid: a8910c195cdeb7144bb40a9c378c5240, type: 3}
+--- !u!114 &5912263836476224299
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19d59d3d603bc340aa5df4b130e7c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 726643700
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  _TimeType:
+    _Type: 0
+    _Value: 0
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _Seconds:
+    _Type: 0
+    _Value: 3
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _MinRange: 0
+    _MaxRange: 0
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _NextState:
+    name: 
+    stateID: 534011718
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _SerializeVersion: 2
+  _OldSeconds: 0
+  _OldTimeType: 0
+--- !u!114 &8616641219366188874
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833a424b4434bcd4ca0341dd5c9ffe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 1848543519
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  link:
+    name: 
+    stateID: 822959691
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _charaText: "\u5E02\u5834\u3067\u30DB\u30C3\u30B1\u3068\u30C8\u30DE\u30C8\u3068\u8C5A\u30D0\u30E9\u3088\uFF01"
+  _textSize: 40
+  _charaName: HomeObj
+  _offset_X: 0
+  _offset_Y: 1.5
+  _sprite: {fileID: -1627540812, guid: a8910c195cdeb7144bb40a9c378c5240, type: 3}
+--- !u!114 &-839327262966260141
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594688225956984654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19d59d3d603bc340aa5df4b130e7c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NodeGraph: {fileID: 8594688225956984653}
+  _NodeID: 822959691
+  _DataSlotFieldLinks: []
+  expanded: 1
+  _BehaviourEnabled: 1
+  _TimeType:
+    _Type: 0
+    _Value: 0
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _Seconds:
+    _Type: 0
+    _Value: 3
+    _Parameter:
+      _Type: 0
+      _Container: {fileID: 0}
+      _Slot:
+        nodeGraph: {fileID: 0}
+        branchID: 0
+      id: 0
+      name: 
+    _MinRange: 0
+    _MaxRange: 0
+    _Slot:
+      nodeGraph: {fileID: 0}
+      branchID: 0
+  _NextState:
+    name: 
+    stateID: 2128155929
+    transitionTiming: 4
+    lineColorChanged: 0
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+  _SerializeVersion: 2
+  _OldSeconds: 0
+  _OldTimeType: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: StageSelectPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: StageSelectPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f2408e0b7a139bd47bfea6b36da7382f
+  m_SerializeEntries:
+  - m_GUID: 3eb8ef79580373e4a81f780a0bbe3698
+    m_Address: Assets/Scripts/ExceptingGameScene/GameSelect/Model/ScriptableObject/SerectStageDateMaster.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - StageSelect
+    - SelectPrefab
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0181ad19b417e5140a1254dab084f548, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cfbc75a59c6fa3f4db9b4e270574e64f, type: 2}
+    - {fileID: 11400000, guid: 36c5523d4db52354785ca87a37623e7c, type: 2}

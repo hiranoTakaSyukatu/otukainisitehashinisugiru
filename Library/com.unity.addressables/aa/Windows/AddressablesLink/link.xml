@@ -1,0 +1,124 @@
+<linker>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ObjectDestory" preserve="all" />
+    <type fullname="AudioVolumeControler" preserve="all" />
+    <type fullname="SceneChanger" preserve="all" />
+    <type fullname="Input_F12" preserve="all" />
+    <type fullname="PlayerAnimationPlay" preserve="all" />
+    <type fullname="InputStateChange" preserve="all" />
+    <type fullname="FadeOut" preserve="all" />
+    <type fullname="SpriteChanger2" preserve="all" />
+    <type fullname="DeadEventResultUpdater" preserve="all" />
+    <type fullname="NewDeadObjChecker" preserve="all" />
+    <type fullname="FadeOutSprite" preserve="all" />
+    <type fullname="SelectChoices" preserve="all" />
+    <type fullname="ColliderSetActiveSwitch" preserve="all" />
+    <type fullname="SpriteChanger" preserve="all" />
+    <type fullname="StageChanger" preserve="all" />
+    <type fullname="AnimationContainerController" preserve="all" />
+    <type fullname="TargetDirMove" preserve="all" />
+    <type fullname="DeadUIDisPlay" preserve="all" />
+    <type fullname="ColliderSetActiveFlg_Capsule" preserve="all" />
+    <type fullname="PlayerDeadPuddle" preserve="all" />
+    <type fullname="SpriteSetActive" preserve="all" />
+    <type fullname="JankenBattle" preserve="all" />
+    <type fullname="GameObjectChacker" preserve="all" />
+    <type fullname="ImageSetActive" preserve="all" />
+    <type fullname="CameraZoom" preserve="all" />
+    <type fullname="ObjectRotation" preserve="all" />
+    <type fullname="AnimatorStop" preserve="all" />
+    <type fullname="ChoiecesAnswer" preserve="all" />
+    <type fullname="Fall_F12" preserve="all" />
+    <type fullname="DisplayPosChange" preserve="all" />
+    <type fullname="InstansiateGameObject" preserve="all" />
+    <type fullname="Reality.Player.RealityTouchedObject" preserve="all" />
+    <type fullname="Input_Dash" preserve="all" />
+    <type fullname="EventStarter" preserve="all" />
+    <type fullname="ColliderSetActive2" preserve="all" />
+    <type fullname="ArborObjectBinder" preserve="all" />
+    <type fullname="Conversation" preserve="all" />
+    <type fullname="GameObjectSetActiveFlg" preserve="all" />
+    <type fullname="SpriteBlinkingChange" preserve="all" />
+    <type fullname="StageDB" preserve="all" />
+    <type fullname="SimpleAnimationPlay" preserve="all" />
+    <type fullname="SelectChoices_2" preserve="all" />
+    <type fullname="ColorChanger" preserve="all" />
+    <type fullname="CameraZoomOut" preserve="all" />
+    <type fullname="AudioMusicChange" preserve="all" />
+    <type fullname="SpaceKeyInput" preserve="all" />
+    <type fullname="ClearScene" preserve="all" />
+    <type fullname="FadeSprite" preserve="all" />
+    <type fullname="Title.Model.MuseumAssetDate" preserve="all" />
+    <type fullname="PictureBookIcon" preserve="all" />
+    <type fullname="PictureBookPage" preserve="all" />
+    <type fullname="PictureBookTitleText" preserve="all" />
+    <type fullname="PictureBookInfoText" preserve="all" />
+    <type fullname="MuseumDateInsert" preserve="all" />
+    <type fullname="GameSelect.Model.SelectAssetPrefabDate" preserve="all" />
+    <type fullname="Signal.C_TouchObjectType" preserve="all" />
+  </assembly>
+  <assembly fullname="SimpleAnimationComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SimpleAnimation" preserve="all" />
+  </assembly>
+  <assembly fullname="Arbor.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Arbor.ArborFSM" preserve="all" />
+    <type fullname="Arbor.ParameterContainer" preserve="all" />
+  </assembly>
+  <assembly fullname="Arbor.BuiltInBehaviours, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Arbor.StateMachine.StateBehaviours.TimeTransition" preserve="all" />
+    <type fullname="Arbor.StateMachine.StateBehaviours.DestroyGameObject" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+  </assembly>
+</linker>

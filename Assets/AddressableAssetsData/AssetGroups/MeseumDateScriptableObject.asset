@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MeseumDateScriptableObject
+  m_EditorClassIdentifier: 
+  m_GroupName: MeseumDateScriptableObject
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6cd88c010041f7247ac5401371641150
+  m_SerializeEntries:
+  - m_GUID: 84df5d9366089ce43b4560f44aa55868
+    m_Address: Assets/Scripts/ExceptingGameScene/Title/Model/ScriptableObject/TestDate.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Museum
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0181ad19b417e5140a1254dab084f548, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 655b249eb2d2163449996b75b6fc773d, type: 2}
+    - {fileID: 11400000, guid: 3687160ed073f94489f73a533c9fe0f3, type: 2}
